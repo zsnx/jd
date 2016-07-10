@@ -1,0 +1,137 @@
+body {
+    font-family: 'MIcrosoft Yahei';
+}
+
+html, body {
+    height: 100%;
+
+}
+
+#topbar {
+    background: url(../images/header-bg.png) repeat-x;
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+
+}
+
+#topbar > .icon-back {
+    background: url(../images/sprites.png) no-repeat -20px 0;
+    background-size: 200px 200px;
+    height: 44px;
+    width: 40px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 12px 10px;
+    background-origin: content-box;
+    background-clip: content-box;
+}
+
+#topbar > form {
+    padding: 0 40px;
+    width: 100%;
+    height: 44px;
+}
+
+#topbar > form > input {
+    border: 1px solid #c0c0c0;
+    width: 100%;
+    height: 30px;
+    margin-top: 7px;
+    border-radius: 5px;
+
+}
+
+#topbar > .icon-menu {
+    background: url(../images/sprites.png) no-repeat -60px 0;
+    width: 40px;
+    height: 44px;
+    background-size: 200px 200px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 12px 10px;
+    background-origin: content-box;
+    background-clip: content-box;
+}
+
+/*主体开始*/
+#category {
+    height: 100%;
+    padding-top: 45px;
+}
+
+#category > .category-left {
+    width: 90px;
+    float: left;
+    overflow: hidden;
+    height: 100%;
+}
+
+#category > .category-left > ul > li {
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #c0c0c0;
+    border-right: 1px solid #c0c0c0;
+
+}
+
+#category > .category-left > ul > li.now > a {
+    background-color: #fff;
+    color: #d8505c;
+
+}
+
+#category > .category-left > ul > li > a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 14px;
+    background-color: #f3f4f5;
+}
+
+/*主体右侧开始*/
+#category >.category-right {
+    height: 100%;
+    overflow: hidden;
+    /*margin-left: 90px;*/
+}
+
+#category >.category-right>.category-main  > a {
+    padding: 10px;
+    display: block;
+
+}
+
+#category > .category-right > .category-main>a > img {
+    width: 100%;
+
+    vertical-align: middle;
+}
+
+.product-title > h3 {
+    font-size: 14px;
+}
+
+.product-main > ul > li {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+
+}
+
+.product-main > ul > li > a {
+    display: block;
+}
+
+.product-main > ul > li > a > img {
+    width: 62px;
+    height: 62px;
+}
+
+.product-main > ul > li > a > p {
+    font-size: 12px;
+}

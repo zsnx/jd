@@ -1,0 +1,248 @@
+body {
+    font-family: 'Microsoft YaHei';
+
+}
+
+#layout {
+    width: 100%;
+    min-width: 320px;
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: #F5F5F5;
+
+}
+#header .topbar{
+    min-width: 320px;
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+    position: fixed;
+    /*background-color: transparent;*/
+    padding: 0px 46px 0 72px;
+    z-index: 10;
+}
+#header .topbar>form>input{
+    width:100%;
+    height: 34px;
+    margin:3px 0px;
+    border-radius: 20px;
+    padding-left: 27px;
+
+}
+.logo{
+    background: url(../images/sprites.png) no-repeat 0px -103px;
+    height: 36px;
+    width: 60px;
+    -webkit-background-size: 200px 200px;
+    background-size: 200px 200px;
+    position: absolute;
+    top: 5px;
+    left: 9px;
+}
+.login{
+    position: absolute;
+    top: 8px;
+    right: 7px;
+    color: #fff;
+}
+.search{
+    background:url(../images/sprites.png) no-repeat -60px -109px;
+    /*因为这个精灵图是400X400*/
+    -webkit-background-size: 200px 200px;
+    background-size: 200px 200px;
+    position: absolute;
+    top: 10px;
+    left: 78px;
+    width: 20px;
+    height: 20px;
+
+}
+
+
+/*轮播图部分*/
+#slide{
+    position: relative;
+    overflow: hidden;
+}
+#slide ul:first-child{
+    width: 1000%;
+}
+#slide ul:first-child>li{
+    float: left ;
+    width: 10%;
+}
+#slide ul:first-child>li>a>img{
+    width: 100%;
+    vertical-align: middle;
+}
+#slide ul:last-child{
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    margin-left: -64px;
+}
+#slide ul:last-child>li{
+    border: 1px solid #ffff00;
+    width: 5px;
+    height:5px;
+    border-radius: 50%;
+    margin-left: 10px;
+    float: left;
+}
+#slide ul:last-child>li.current{
+    background-color: #fff;
+}
+
+
+
+/*分类查询开始*/
+#category{
+    width: 100%;
+    background-color: #fff;
+}
+#category>ul{
+    padding: 10px 0;
+}
+#category>ul>li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top: 10px;
+
+}
+#category>ul>li>a{
+    font-size: 14px;
+}
+#category>ul>li>a>img{
+    width: 40px;
+    height: 40px;
+    -webkit-background-size: 40px 40px;
+    background-size: 40px 40px;
+}
+
+
+/*掌上秒杀开始*/
+#main {
+padding: 0 10px;
+}
+.pro-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 25px;
+    padding: 5px;
+    background-color: #fff;
+}
+.seckill-icon{
+    background:url(../images/seckill-icon.png);
+    background-size: 20px 25px;
+    width: 20px;
+    height: 25px;
+    float: left;
+}
+.seckill-name{
+    float: left;
+    font-size: 14px;
+    color: #d8505c;
+    margin-left: 10px;
+}
+.seckill-time{
+    float: left;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+.seckill-time>span{
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    text-align: center;
+    float: left;
+    background-color: #000000;
+    color: #fff;
+    margin: 0 3px;
+}
+.seckill-time > span:nth-child(3n) {
+    background-color: #fff;
+    color: #000;
+}
+
+.pro-title .genduo{
+font-size: 15px;
+    color: red;
+
+}
+.pro-title .genduo>a{
+    color: red;
+}
+/*.pro-content{*/
+   /**/
+/*}*/
+.product{
+    margin-bottom: 10px;
+    padding-bottom: 10px ;
+    background-color: #fff;
+}
+.pro-content{
+    background-color: #fff;
+
+}
+.pro-content>ul>li{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    margin-top:5px ;
+
+}
+.pro-content>ul>li>p{
+    margin-top: 5px; ;
+}
+.pro-content>ul>li>a>img{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+.width-50{
+    width: 50%;
+}
+.border-left{
+    border-left: 1px solid #c0c0c0;
+}
+.border-right{
+    border-right: 1px solid #c0c0c0;
+}
+.border-top{
+    border-top: 1px solid #c0c0c0;
+}
+.border-bottom{
+    border-bottom: 1px solid #c0c0c0;
+}
+.pro-content{
+    background-color: #fff;
+}
+
+.product-content > a > img{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+.product > .product-title > h3 {
+    font-weight: normal;
+    font-size: 16px;
+    position: relative;
+    padding-left: 20px;
+    line-height: 30px;
+    border-bottom: 1px solid #c0c0c0;
+    background-color: #fff;
+}
+
+.product > .product-title > h3::before {
+    content: "";
+    width: 3px;
+    height: 12px;
+    background-color: #d8505c;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}

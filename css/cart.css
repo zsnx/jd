@@ -1,0 +1,96 @@
+body {
+    font-family: 'MIcrosoft Yahei';
+}
+
+html, body {
+    height: 100%;
+
+}
+
+#topbar {
+    background: url(../images/header-bg.png) repeat-x;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+    line-height: 44px;
+    height: 44px;
+    text-align: center;
+
+}
+
+#topbar > .icon-back {
+    background: url(../images/sprites.png) no-repeat -20px 0;
+    background-size: 200px 200px;
+    height: 44px;
+    width: 40px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 12px 10px;
+    background-origin: content-box;
+    background-clip: content-box;
+}
+
+#topbar > h3 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#topbar > .icon-menu {
+    background: url(../images/sprites.png) no-repeat -60px 0;
+    width: 40px;
+    height: 44px;
+    background-size: 200px 200px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 12px 10px;
+    background-origin: content-box;
+    background-clip: content-box;
+}
+
+#safetip {
+    line-height: 34px;
+    height: 34px;
+    border-bottom: 1px solid #c0c0c0;
+    text-align: center;
+}
+
+#safetip p {
+    font-size: 13px;
+    display: inline-block;
+    padding-left: 20px;
+    position: relative;
+}
+
+#safetip p::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 8px;
+    background: url(../images/safe_icon.png);
+    width:18px;
+    height: 18px;
+    background-size: 18px 18px;
+}
+#shop>.shop-title{
+    line-height: 30px;
+    height: 30px;
+    border-bottom: 1px solid #c0c0c0;
+}
+#shop > .shop-title > .pull-left>.chexbox{
+    background:url(../images/shop-icon.png) -25px 0;
+    background-size:50px 100px;
+    background-origin: content-box;
+    background-clip: content-box;
+    padding:7px 10px;
+    width: 40px;
+    height: 32px;
+    float: left;
+}
+#shop > .shop-title > .pull-left > img {
+    width: 15px;
+    height: 13px;
+    float: left;
+    margin-top: 10px;
+}
